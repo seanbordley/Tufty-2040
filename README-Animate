@@ -1,8 +1,8 @@
 1 Find or create the media that you want to put on your TUfty 2040
 2 You will then need to extract the media into sequential frames.
-  2a https://ezgif.com/ this site can extract from both gifs and videos but i prefer ffmpeg for video file extraction.
+  2a https://ezgif.com/ this site can extract from both gifs and videos but I prefer ffmpeg for video file extraction. Your files must be in .jpg format.
   2b make sure to resize your files to the appropriate screen resolution, if it's a video you cat use that site to change resolution and cut the length, then use FFmpeg.
-  2c ffmpeg -i input.mp4 '%04d.png'
+  2c ffmpeg -i input.mp4 '%04d.jpg
 3 Place all sequential files in a folder, I have chosen the name Pedro, but you can change that to a different name just update the script.
 4 Using Thonny upload save script and using Thonny's built in file upload system you can upload the folder containing all your sequential images... This process can take awhile
 5 Enjoy never forget this step.
