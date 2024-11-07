@@ -9,7 +9,7 @@ display = PicoGraphics(display=DISPLAY_TUFTY_2040)
 j = JPEG(display)
 
 # Base directory
-base_dir = "/Pedro"
+base_dir = "/Disco"
 image_format = ".jpg"  # File format is JPEG
 
 def get_image_number(filename):
